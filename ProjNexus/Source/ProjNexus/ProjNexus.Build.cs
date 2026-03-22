@@ -21,6 +21,7 @@ public class ProjNexus : ModuleRules
 			"Slate"
 		});
 		PrivateDependencyModuleNames.Add("CoreFramework");
+		PrivateDependencyModuleNames.Add("InventoryFramework");
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
